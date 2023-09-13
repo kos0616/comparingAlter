@@ -71,6 +71,8 @@
         <!-- eslint-enable -->
       </ImgComparisonSlider>
     </div>
+    <img src="@/assets/image/before.webp" :style="styleLeft" />
+    <img src="@/assets/image/after.webp" :style="styleRight" />
   </article>
 </template>
 
