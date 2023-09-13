@@ -1,5 +1,5 @@
 {
-  "name": "rulerbreaker",
+  "name": "comparingalter",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist -t true"
   },
   "dependencies": {
+    "@img-comparison-slider/vue": "^8.0.0",
     "dayjs": "^1.11.9",
     "mitt": "^3.0.1",
     "pinia": "^2.1.4",

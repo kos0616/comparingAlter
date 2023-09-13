@@ -1,23 +1,20 @@
 <script setup lang="ts">
-import AddToHome from './components/AddToHome.vue';
+// import AddToHome from './components/AddToHome.vue';
 import { RouterView } from 'vue-router';
-import initNetworkStatus from './API/initNetworkStatus';
-initNetworkStatus();
 </script>
 
 <template>
-  <AddToHome />
+  <!-- <AddToHome /> -->
   <header class="sticky top-0 z-20 bg-[color:var(--color-header)]">
     <div class="container mx-auto flex">
       <router-link to="/" class="mr-auto">
-        <h1 class="brand text-white">RULER BREAKER</h1>
+        <h1 class="brand text-white">Comparing ALTER</h1>
       </router-link>
-      <nav class="flex items-center">
+      <!-- <nav class="flex items-center">
         <a href="#home" class="home-nav-link">Home</a>
         <a href="#correction" class="home-nav-link">校正</a>
         <a href="#sizing" class="home-nav-link">測量</a>
-        <!-- <a href="#contact" class="home-nav-link"></a> -->
-      </nav>
+      </nav> -->
     </div>
   </header>
 
